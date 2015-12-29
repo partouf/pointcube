@@ -64,7 +64,6 @@ everything.add( plane );
     // vertexColors: THREE.VertexColors
     //do the following if puppies:
     map: THREE.ImageUtils.loadTexture("media/puppy.png"),
-    blending: THREE.AdditiveBlending,
     transparent: true
   } );
 
