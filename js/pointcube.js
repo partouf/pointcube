@@ -16,7 +16,7 @@ var camera = new THREE.PerspectiveCamera( 110, window.innerWidth / window.innerH
 scene.add(camera);
 
 //Apply VR headset positional data to camera.
-var controls = new THREE.VRControls( camera );
+var controls = new THREE.VRControls( camera, 0.1 );
 
 //Apply VR stereo rendering to renderer
 var effect = new THREE.VREffect( renderer );
